@@ -11,6 +11,9 @@ namespace LeetCode
             FirstBadVersion firstBadVersion = new FirstBadVersion();
             firstBadVersion.Run();
 
+            //day2
+            JewelsAndStones jewelsAndStones = new JewelsAndStones();
+            jewelsAndStones.Run();
         }
     }
 }
