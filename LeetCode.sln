@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems.May", "Problems.May\Problems.May.csproj", "{58D605E4-188C-44C4-9086-A9C62633DE78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Challenges", "Problems.May\LeetCode.Challenges.csproj", "{58D605E4-188C-44C4-9086-A9C62633DE78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomProblems", "RandomProblems\RandomProblems.csproj", "{96BA04BF-BFEF-432A-90AA-F5059ABDDF62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomProblems", "RandomProblems\RandomProblems.csproj", "{96BA04BF-BFEF-432A-90AA-F5059ABDDF62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Tests", "LeetCode.Testes\LeetCode.Tests.csproj", "{3C42E857-7C2D-45E8-AA18-FE227F410B9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Tests", "LeetCode.Testes\LeetCode.Tests.csproj", "{3C42E857-7C2D-45E8-AA18-FE227F410B9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
