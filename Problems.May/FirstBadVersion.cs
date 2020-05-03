@@ -12,9 +12,12 @@ namespace Problems.May
              approach1: iterate and return first T
              approach2: use binary search to find first T
          */
-        public int Run()
+        public FirstBadVersion(bool[] versionFlags) : base(versionFlags)
         {
-            int length = versionFlags.Length;
+
+        }
+        public int Run(int length)
+        {
             return FindBadVersion(0, length);
         }
 
@@ -41,10 +44,14 @@ namespace Problems.May
 
     public class VersionControl
     {
-        public readonly bool[] versionFlags = new bool[] { false, false, false, true, true };
+        private readonly bool[] _versionFlags;
+        public VersionControl(bool[] versionFlags)
+        {
+            _versionFlags = versionFlags;
+        }
         public bool IsBadVersion(int n)
         {
-            return versionFlags[n - 1];
+            return _versionFlags[n - 1];
         }
     }
 }

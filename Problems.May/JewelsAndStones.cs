@@ -6,10 +6,8 @@ namespace Problems.May
 {
     public class JewelsAndStones
     {
-        public int Run()
+        public int Run(string J, string S)
         {
-            string J = "aA";
-            string S = "aAAbbbb";
             return FindJewelsAndStones(J,S);
         }
 
